@@ -1,0 +1,21 @@
+{
+    "name": "agilesdesign/myrtle-commodities",
+    "description": "Core Commodities Dock for Myrtle WMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Seliga",
+            "email": "jseliga@agiledesign.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/database",
+            "src/Myrtle/Core/Docks"
+        ],
+        "psr-4": {
+            "Myrtle\\Core\\Commodities\\": "src/Commodities"
+        }
+    }
+}
