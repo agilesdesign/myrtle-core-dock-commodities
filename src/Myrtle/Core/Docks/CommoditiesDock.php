@@ -1,6 +1,6 @@
 <?php
 
-namespace Myrtle\Docks;
+namespace Myrtle\Core\Docks;
 
 use Myrtle\Core\Commodities\Policies\CommoditiesPolicy;
 use Myrtle\Core\Commodities\Policies\CommoditiesDockPolicy;
